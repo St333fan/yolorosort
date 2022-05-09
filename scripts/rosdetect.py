@@ -17,7 +17,7 @@ import rospy
 # ROS Image message
 from std_msgs.msg import String
 from sensor_msgs.msg import Image
-from yoloros.msg import fullBBox, singleBBox
+from yolorosort.msg import fullBBox, singleBBox
 # ROS Image message -> OpenCV2 image converter
 from cv_bridge import CvBridge, CvBridgeError
 
